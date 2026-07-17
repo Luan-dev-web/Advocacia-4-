@@ -502,7 +502,7 @@ nav {
     .menu-link {
         color: #fff;
         text-decoration: none;
-        font-size: 11px;
+        font-size: 20px;
         transition: 0.3s ease-in-out;
     }
 
@@ -553,12 +553,18 @@ nav {
     nav {
         display: none;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         position: absolute;
-        top: 70px;
-        right: 20px;
+        top: 52px;
+        right: 0px;
+        left: 0px;
         background: #07080A;
         padding: 20px;
-        border-radius: 10px;
+        border-radius: 0px;
+        height: 100vh;
+        overflow-y: auto;
+        gap: 30px;
     }
 
     nav.ativo {
